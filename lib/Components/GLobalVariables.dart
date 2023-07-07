@@ -14,11 +14,7 @@ List foodpagelist = [
   const CartPage(),
   const FavoritePage(),
 ];
-List<List<String>> searchTerms = [
-  ["Turkmen Tagam", "Chillout", "Alpizza", "Maksatly"],
-  ["lagman", "palow", "manty", "borek", "soup", "lahana", "lahmacun"],
-  ["palow", "manty"]
-];
+
 final List<Map<String, dynamic>> localShopItems = [
   {
     "type": "local",
@@ -58,7 +54,7 @@ List<Map<String, dynamic>> mealsCartData = [
     "type": "food",
     "name": "Samsa",
     "image": "Assets/images/samsa.jpg",
-    "location": "Turkmenabat, Turkmen Tagam",
+    "location": ", Turkmen Tagam",
     "prize": 10.99,
     "deliveryTime": 25,
   },
@@ -66,7 +62,7 @@ List<Map<String, dynamic>> mealsCartData = [
     "type": "food",
     "name": " Lagman",
     "image": "Assets/images/lagman.jpg",
-    "location": " Turkmenabat, Chillout",
+    "location": " , Chillout",
     "prize": 20.99,
     "deliveryTime": 30,
   },
@@ -81,7 +77,7 @@ List<Map<String, dynamic>> mealsCartData = [
   {
     "type": "food",
     "name": "Shashlyk",
-    "image": "Assets/images/kebab.jpg",
+    "image": "Assets//kebab.jpg",
     "location": "Turkmenabat, Maksatly cafe",
     "prize": 20.99,
     "deliveryTime": 30,
@@ -89,7 +85,7 @@ List<Map<String, dynamic>> mealsCartData = [
 ];
 List<Map<String, dynamic>> restaurantsCartData = [
   {
-    "type": "restaurant",
+    "type": "",
     "name": " Mynasyp",
     "image": "Assets/images/borek.jpg",
     "location": "Turkmenabat, 3-nji k/e ",
